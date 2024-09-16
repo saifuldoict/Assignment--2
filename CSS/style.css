@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+.main_image{
+    background-image: url("../Images/heroImage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.sarch-{
+    margin-left: 50px;
+}
+.navbar-nav{
+    padding: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+    margin-right: 10px;
+    transition: ease-in 0.1s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    margin-right: 10px;
+    background-color: #d63384;
+
+}
+ .nav-image{
+    margin-top: -13px;
+     width: 150px;
+     padding-right: 30px;
+
+}
+.form-bar{
+    height: 30px;
+}
+
+
+<!--cover tex section-->
+
+
+.container .section-text-div{
+    margin-top: 150px;
+
+}
+    .tex section .text-body-section.cover-text- div{
+        padding-top: 30px;
+    }
