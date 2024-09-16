@@ -1,4 +1,5 @@
- NO: 1
+
+// NO: 1
 
 function calculateDifference(num1,num2){
     return num2-num1;
@@ -9,12 +10,15 @@ console.log(result);
 
 
 
- NO: 2
+
+
+//  NO: 2
 
 function isOdd(num3){
   
     if(num3 % 2 !=0){
        retune = console.log(true)
+
    
      }
      else{
@@ -25,21 +29,24 @@ function isOdd(num3){
   
 
 
- NO. 3
+
+
+// NO. 3
 
 
  function findMin(arr) { 
     let smallest = arr.sort((a, b) => a - b); 
     return  smallest[0]; 
+ 
  }
 
- result = findMin([200,10,20,30,40,50,100])
+ console.log (findMin([200,10,20,30,40,50,100,1]));
 
- console.log (result)
+
  
 
 
-  NO: 4
+//   NO: 4
 
   function filterEvenNumbers(){
 
@@ -56,7 +63,9 @@ function isOdd(num3){
 
  filterEvenNumbers(arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,12,18,24]);
  
- NO: 5
+
+ 
+//  NO: 5
 
  function sortArrayDescending(){
 
@@ -69,11 +78,41 @@ function isOdd(num3){
  
 
 
- 
- 
+// NO: 6
+function lowercaseFirstLetter(s) {
+
+    if (!s) {
+        return s;
+    }
+    return s.charAt(0).toLowerCase() + s.slice(1);
+}
+
+console.log(lowercaseFirstLetter("HELLO"));
 
 
-NO: 08
+
+// No: 7
+
+function countVowels(s) {
+    const vowels = 'aeiouAEIOU';
+    const vowelCounts = {};
+    for (let i = 0; i < s.length; i++) {
+        if (vowels.includes(s[i])) {
+            if (vowelCounts[s[i]] === undefined) {
+                vowelCounts[s[i]] = 1;
+            } else {
+                vowelCounts[s[i]]++;
+            }
+        }
+    }
+    return   vowelCounts;
+}
+
+console.log(countVowels("aeiouAEIOU"));
+
+
+
+// NO: 08
 function findAverage(){
     let count =0;
     let total = 0;
@@ -90,4 +129,4 @@ function findAverage(){
 
 }
 
-findAverage(grades = [ 10,20,30,40])
+findAverage(grades = [ 10,20,30,40]);
