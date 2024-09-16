@@ -1,4 +1,4 @@
-// NO: 1
+ NO: 1
 
 function calculateDifference(num1,num2){
     return num2-num1;
@@ -9,7 +9,7 @@ console.log(result);
 
 
 
-// NO: 2
+ NO: 2
 
 function isOdd(num3){
   
@@ -25,7 +25,7 @@ function isOdd(num3){
   
 
 
-// NO. 3
+ NO. 3
 
 
  function findMin(arr) { 
@@ -39,7 +39,7 @@ function isOdd(num3){
  
 
 
- // NO: 4
+  NO: 4
 
   function filterEvenNumbers(){
 
@@ -56,7 +56,7 @@ function isOdd(num3){
 
  filterEvenNumbers(arr = [1, 2, 3, 4, 5, 6, 7, 8, 9,12,18,24]);
  
-// NO: 5
+ NO: 5
 
  function sortArrayDescending(){
 
@@ -71,3 +71,23 @@ function isOdd(num3){
 
  
  
+
+
+NO: 08
+function findAverage(){
+    let count =0;
+    let total = 0;
+
+  for(let i=0; i<grades.length; i++){
+        if (grades[i] !=undefined){
+            count++;
+            total+= grades[i];
+        }
+    
+        let avg = total/count
+        console.log(avg);
+     }
+
+}
+
+findAverage(grades = [ 10,20,30,40])
